@@ -29,7 +29,7 @@ def findConstellation1Solution():
 
 # smallest solution: p=5639
 def findConstellation2Solution():
-	primeList = get_first_n_primes_as_list(4500)
+	primeList = get_first_n_primes_as_list(5000)
 	for i in primeList:
 		amountOfSuccessesWithinConst = 0
 		for j in constellation2:
